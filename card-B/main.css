@@ -34,15 +34,6 @@ body {
   flex-shrink: 0;
 }
 
-img {
-  width: 6rem;
-  height: 6rem;
-  object-fit: cover;
-  background-color: black;
-  border-radius: 50%;
-  background-color: aqua;
-  z-index: 1;
-}
 .right-card {
   padding-top: 1.5rem;
   margin-right: 2rem;
@@ -76,4 +67,16 @@ img {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   z-index: 5;
-} /*# sourceMappingURL=main.css.map */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.card--2 img {
+  width: 1.5rem;
+}
+.card--2 img:first-child {
+  width: 3rem;
+}
